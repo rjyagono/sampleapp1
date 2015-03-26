@@ -1,5 +1,8 @@
 Muse::Application.routes.draw do
 
+  resources :blogs
+
+
   resources :posts
 
   root :to => 'posts#index'
